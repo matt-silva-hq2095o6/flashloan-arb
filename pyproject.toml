@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flashloan-arb"
+version = "0.2.0"
+description = "Offline cycle math and arbitrage scanner for Uniswap v2 forks"
+readme = "README.md"
+authors = [{ name = "Dan", email = "dan@local.dev" }]
+requires-python = ">=3.10"
+dependencies = [
+    "web3>=6.0.0",
+    "eth-abi>=4.0.0",
+    "eth-typing>=3.0.0",
+    "rich>=13.0.0",
+    "click>=8.1.0",
+    "ujson>=5.8.0",
+]
+
+[project.scripts]
+flashloan-arb = "flashloan_arb.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-mock>=3.10.0",
+]
