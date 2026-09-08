@@ -44,3 +44,5 @@ Pools JSON format:
 - Uses Multicall3 for fetching reserves in a single eth_call.
 - Math assumes standard constant product xy=k invariant.
 - Does not submit bundles or private txs; outputs JSON or rich tables for piping into downstream runners.
+
+<!-- checked: 2026-09-08 -->
