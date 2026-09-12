@@ -45,4 +45,4 @@ Pools JSON format:
 - Math assumes standard constant product xy=k invariant.
 - Does not submit bundles or private txs; outputs JSON or rich tables for piping into downstream runners.
 
-<!-- checked: 2026-09-11 -->
+<!-- checked: 2026-09-12 -->
